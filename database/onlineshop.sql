@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 20, 2020 at 09:02 AM
+-- Generation Time: Apr 20, 2020 at 09:54 AM
 -- Server version: 10.1.9-MariaDB
 -- PHP Version: 7.0.0
 
@@ -75,13 +75,8 @@ CREATE TABLE `booking` (
 --
 
 INSERT INTO `booking` (`booking_id`, `dname`, `userid`, `dcontact`, `expertise`, `fee`, `pname`, `pcontact`, `email`, `address`, `dates`, `tyme`, `payment`) VALUES
-(13, 'Md. Azharul Islam', 1007, '01521470368', 'Cardiologist', '800', 'azad', '01521470368', 'azad.ece13@gmail.com', 'Dhaka', '2018-07-27', '11.00am', 'bKask'),
 (14, 'Dr. Majedul Islam', 1008, '01734761999', 'Medicine', '800', 'patient', 'contact', 'mamun@gmail.com', 'Dinajpur', '2018-07-28', '03.00pm', 'bKask'),
-(15, 'Md. Azharul Islam', 1009, '01521470368', 'Cardiologist', '800', 'mamun', '01521470368', 'mamun@gmail.com', 'Rangpur', '2018-07-26', '11.00am', 'Rocket'),
-(16, 'Dr. Badol Miah', 1004, '01949389983', 'Kedney', '700', 'mamun', '01521470368', 'mamun@gmail.com', 'Dinajpur', '2018-07-20', '11.00am', 'bKask'),
-(17, 'Dr. Azharul Islam', 1002, '01764761919', 'Medicine', '500', 'azad', '01521470368', 'azad.ece13@gmail.com', 'Rangpur', '2018-07-26', '03.00pm', 'bKask'),
-(18, 'Dr. Badol Miah', 1004, '01949389983', 'Kedney', '700', 'dezazad', 'dezazad', 'devloperazad.hstu@gmai', 'Dinajpur', '2018-07-07', '11.00am', 'Rocket'),
-(19, 'Dr. Rashid', 1003, '01521670654', 'Medicine', '600', '', '', 'developerazad.hstu@gmail.com', '', '2018-07-15', '11.00am', 'bKask');
+(20, 'DR.MADIRA KULARATHNA', 1001, '01734761999', 'SURGERY ', '5000', 'dddddd', '042241344', 'dilshanautotraders@gmail.com', 'ddddddssdsds', '2020-04-21', '03.00pm', 'Rocket');
 
 -- --------------------------------------------------------
 
@@ -215,9 +210,9 @@ CREATE TABLE `doctor` (
 --
 
 INSERT INTO `doctor` (`doc_id`, `doctor_id`, `name`, `address`, `contact`, `email`, `expertise`, `id`, `fee`, `userid`, `password`, `pic`) VALUES
-(1, '2', 'DR.MADIRA KULARATHNA', 'Colombo', '01734761999', 'justpetmada@gmail.com', 'SURGERY ', 2, '5000', '1001', '123', 'doctor1.jpg'),
-(2, '1', 'DR.ANURA KUMARA', 'Kalutara', '01764761919', 'justpetanura@gmail.com', 'INWARD CARE', 1, '6000', '1002', '123', 'doctor5.jpg'),
-(3, '1', 'DR.SHYAMA PERAMUNE', 'Gampaha', '01521670654', 'justshyma@gmail.com', 'OPD ', 1, '6500', '1003', '123', 'doctor1.jpg'),
+(1, '1', 'DR.MADIRA KULARATHNA', 'Colombo', '01734761999', 'justpetmada@gmail.com', 'SURGERY ', 1, '5000', '1001', '123', 'doctor1.jpg'),
+(2, '2', 'DR.ANURA KUMARA', 'Kalutara', '01764761919', 'justpetanura@gmail.com', 'INWARD CARE', 2, '6000', '1002', '123', 'doctor5.jpg'),
+(3, '3', 'DR.SHYAMA PERAMUNE', 'Gampaha', '01521670654', 'justshyma@gmail.com', 'OPD ', 3, '6500', '1003', '123', 'doctor1.jpg'),
 (4, '4', 'DR.HARSHA JAYARATHNE', 'Rathnapura', '01949389983', 'justharsha@gmail.com', 'MOBILE VET', 4, '700', '1004', '123', 'doctor5.jpg');
 
 -- --------------------------------------------------------
@@ -591,7 +586,7 @@ ALTER TABLE `admin_info`
 -- AUTO_INCREMENT for table `booking`
 --
 ALTER TABLE `booking`
-  MODIFY `booking_id` int(22) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20;
+  MODIFY `booking_id` int(22) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=21;
 --
 -- AUTO_INCREMENT for table `brands`
 --
