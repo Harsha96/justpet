@@ -34,13 +34,14 @@
 
 						<div class="col-md-3 col-xs-6">
 							<div class="footer">
-								<h3 class="footer-title">Categories</h3>
+								<h3 class="footer-title">Site Links</h3>
 								<ul class="footer-links">
 									<li><a href="#">Pet Accessories</a></li>
 									<li><a href="#">Dogs</a></li>
 									<li><a href="#">Cats</a></li>
 									<li><a href="#">Kids</a></li>
 									<li><a href="#">Accessories</a></li>
+										<li><a href="doctors/doctorlogin.php">Doctor Login</a></li>
 								</ul>
 							</div>
 						</div>

@@ -1,7 +1,7 @@
 
 <?php include('header.php'); ?>
    <!--  this was for select -->
-</head>
+
 
 
 <!-- <?php include('function.php'); ?> -->
