@@ -102,7 +102,7 @@ Ragdolls look a lot like long-haired Siamese cats with their pointed color patte
 <br><br><br><br><br>
                                 <b>Bengals are wild looking cats—literally. Their markings make them look more like they belong in the jungle than in your home, but they are domesticated cats nonetheless. They are talkative and require a lot of exercise.
 
-Many colors are allowed on Bengals, but their approved patterns only include spots and rosettes. Their name comes from the Asian leopard cat’s taxonomic name, Prionailurus bengalensis bengalensis, since Bengals were originally bred from both domestic cats and this wildcat. They get their beautiful patterns from this wildcat as well.  </b>      </div>
+Many colors are allowed on Bengals, but their approved patterns only include spots and rosettes. Their name comes from the Asian leopard cat’s taxonomic name, Prionailurus bengalensis bengalensis, since Bengals were originally bred from both domestic cats and this wildcat. They get their beautiful patterns from this wildcat as well.      </div></b>  
                          </div>
                      </div>
                      <!--Services Block-->

@@ -72,7 +72,7 @@
                                               <div class="panel panel-default">
                                                 <div class="panel-heading" role="tab" id="headingOne">
                                                   <h4 class="panel-title">
-                                                    <a href="patient_login.php">
+                                                    <a href="patient/book_appoinment.php">
                                                       Get Appoinment
                                                     </a>
                                                   </h4>
@@ -148,7 +148,7 @@
                                               <div class="panel panel-default">
                                                 <div class="panel-heading" role="tab" id="headingOne">
                                                   <h4 class="panel-title">
-                                                    <a href="patient_login.php">
+                                                    <a href="patient/book_appoinment.php">
                                                       Get Appoinment
                                                     </a>
                                                   </h4>
@@ -230,7 +230,7 @@
                                               <div class="panel panel-default">
                                                 <div class="panel-heading" role="tab" id="headingOne">
                                                   <h4 class="panel-title">
-                                                    <a href="patient_login.php">
+                                                    <a href="book_appoinment.php">
                                                       Get Appoinment
                                                     </a>
                                                   </h4>
@@ -307,7 +307,7 @@
                                               <div class="panel panel-default">
                                                 <div class="panel-heading" role="tab" id="headingOne">
                                                   <h4 class="panel-title">
-                                                    <a href="patient_login.php">
+                                                    <a href="book_appoinment.php">
                                                       Get Appoinment
                                                     </a>
                                                   </h4>

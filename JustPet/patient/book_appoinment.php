@@ -1,117 +1,73 @@
-<?php if(!isset($_SESSION)){
-	session_start();
-	}  
-?>
 
 <?php include('header.php'); ?>
-<?php include('uptomenu.php'); ?>
+   <!--  this was for select -->
+</head>
+
+
+<!-- <?php include('function.php'); ?> -->
 
 
 
 	<!-- this is for donor registraton -->
-	<div class="recipient_reg" style="background-color:#272327;">
-		<h3 class="text-center" style="background-color:#272327;color: #fff;">Booking Appoinment</h3>
+	<div class="search" style="background-color:;">
+		<h3 class="text-center" style="background-color:#272327;color: #fff;padding: 5px;">Search Here</h3>
 
-		<div class="formstyle" style="float: right;padding:25px;border: 1px solid lightgrey;margin-right:415px; margin-bottom:30px;background-color: #101011;color:#d4530d;;">
-		<form enctype="multipart/form-data" method="post" class="text-center">
-			 <div class="col-md-12">
-				  
-			 		<label>
-					   Name: <input type="text" name="name" value="" placeholder="Full name" required>
+		 <div class="formstyle" style="padding:70px;border: 1px solid lightgrey;margin-right: 293px;margin-bottom: 30px;background-color:#f3f3f8;color:#141313;width: 530px;margin-left: 400px;">
+					<form action="search_result.php" method="post" class="form-group">
+
+					<!-- testing -->
+					<label>
+						Search By:<select name="address" type="text" style="width: 110px;margin-right: 175px;" />
+												<option>-Select-</option>
+												<option>Colombo</option>
+												<option>Kalutara</option>
+												<option>Gampaha</option>
+												<option>Rathnapura</option>
+
+											</select>
+
 					</label><br><br>
+					<!-- testing end-->
 
 					<label>
-						Email: <input type="email" name="email"  value="" placeholder="email" required>
-					</label><br><br>
-					
-					<label>
-						Phone: <input type="number" name="contact"  placeholder="contact no" required="required" pattern="[0-9]{10,11}" title="please enter only numbers between 10 to 11 for mobile no."/>
-					</label><br><br>
- 					
- 					<label>
-						Address: <input type="text" name="address" value="" placeholder="address" required>
-					</label><br><br>
-					<label>
-						Category: <select name="expertise" required>
-										<option>-Select-</option>
-										<option>Medicine</option>
-										<option>Heart</option>
-										<option>Bone</option>
-										<<option>kedney</option>
-										<option>Cardiologist</option>
-										<option>Plastic Surgeon</option>
-										<option>General Physician</option>
-									</select>
-					</label><br><br>
-					<label>
-						Doctor: <select name="doctor" required>
-										<option>-Select-</option>
-										<option>Medicine Doctors</option>
-										<option>Heart Doctors</option>
-										<option>Bone Doctors</option>
-										<<option>kedney Doctors</option>
-										<option>Cardiologist Doctors</option>
-										<option>Plastic Surgeon Doctors</option>
-										<option>General Physician Doctors</option>
-									</select>
-					</label><br><br>
-					
-					<label>
-						Date: <input type="date" name="date" placeholder="choose ur date" >	
-					</label><br><br>
-					
-					
-					<button name="submit" type="submit" style="margin-left:60px;width: 85px;border-radius: 3px;">Check</button> <br>
-				
-			</div>	<!-- col-md-12 -->
+						 Category:<select name="expertise" type="text" style="width: 110px;margin-right: 175px;" />
+												<option>-Select-</option>
+												<option>SURGERY </option>
+												<option>INWARD CARE </option>
+												<option>OPD </option>
+												<option>MOBILE VET</option>
 
+											</select>
 
-				</form>
-			</div>
+					</label>
+					<button name="submit" type="submit" style="border-radius: 3px;color:#000;margin-left: 145px;margin-top: 8px;">Search</button>
+					<br>
+
+					</form>
 
 
 
 
+		 	</div>
 	</div>
-	
-	
 
 
 
-	
-	
- <?php include('footer.php'); ?>
+
+ <?php include('../footer.php'); ?>
 
 
-	
+
 	</div><!--  containerFluid Ends -->
 
 
 
+	</div><!--  containerFluid Ends -->
 
 	<script src="js/bootstrap.min.js"></script>
 
 
 	 <!-- validation and insertion -->
-
-
-			<?php
-						
-							include('../config.php');
-							if(isset($_POST['submit'])){
-
-							$sql = "INSERT INTO patient (name,age,contact,address,bgroup,email, password)
-							VALUES ('" . $_POST["name"] ."','" . $_POST["age"] . "','" . $_POST["contact"] . "','" . $_POST["address"] . "','" . $_POST["bgroup"] . "', '" . $_POST["email"] . "','" . $_POST["password"] . "' )";
-
-							if ($conn->query($sql) === TRUE) {
-							    echo "<script>location.replace('patient_success_msg.php');</script>";
-							} else {
-							    echo "<script>alert('There was an Error')<script>" . $sql . "<br>" . $conn->error;
-							}
-
-							$conn->close();
-						}
-					?> 
 
 
 
@@ -120,4 +76,5 @@
 
 
 </body>
+
 </html>
